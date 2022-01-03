@@ -6,7 +6,7 @@ body{
 h1{
     font-size: 50px;
 }
-section{
+.flex-container{
     display: flex;
 }
 .brand-name{
@@ -14,7 +14,7 @@ section{
 }
 .half-width{
     width: 50%;
-    padding-left:5%;
+    padding:0 5%;
     margin-bottom: 100px;
 }
 .half-width img{
@@ -38,4 +38,44 @@ section{
     background-image: url("/images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.expireance{
+    padding: 0 5%;
+    background-image: url("/images/exp-bg.png");
+    background-repeat: no-repeat;
+    
+}
+.exp-blog{
+    width: 40%;
+    margin:0 5%;
+    box-shadow: 5px 5px 30px black;
+    margin-bottom: 50px;
+    padding:0 3%;
+    border-radius: 10px;
+ 
+    
+}
+.exp-blog h4{
+    color: orange;
+}
+.exp-blog h2{
+    font-size: 40px;
+}
+.exp-blog p{
+    text-align: justify;
+}
+#block-1{
+    border-left: 5px solid;
+    border-image: linear-gradient(red,tomato);
+    border-image-slice: 1;
+
+}
+#block-2{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
 }
